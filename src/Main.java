@@ -12,6 +12,12 @@ public class Main {
         String retorno = mochileira.viajar();
         JOptionPane.showMessageDialog(null, retorno);
 
+        String nome = JOptionPane
+                .showInputDialog("Entre com o nome da pessoa Turista: ");
+
+        Turista pessoaTurista = new Turista(nome);
+
+        System.out.println(pessoaTurista.getNome());
     }
 
 }

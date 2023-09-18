@@ -4,10 +4,8 @@ public class Turista {
     private String cpf;
 
     Turista(){}
-    Turista(String _nome) {
-        this.nome = _nome;
+    Turista(String _nome) { this.nome = _nome; }
 
-    }
     public String viajar(){
         return "Viajou!!!";
     }
